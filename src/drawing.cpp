@@ -48,7 +48,7 @@ happening, all ports should restrict window widths to be multiples of 16 pixels.
 #include "savestate.h"
 #include "statusline.h"
 #ifdef CD32
-#include "cd32_fmv.h"
+#undef CD32
 #endif
 #include "audio.h"
 #include "devices.h"

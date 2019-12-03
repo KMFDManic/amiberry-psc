@@ -234,7 +234,8 @@ void InitPanelMisc(const struct _ConfigCategory& category)
 	cmdOpenGUI->setId("OpenGUI");
 	cmdOpenGUI->setSize(SMALL_BUTTON_WIDTH, SMALL_BUTTON_HEIGHT);
 	cmdOpenGUI->setBaseColor(gui_baseCol);
-	cmdOpenGUI->addActionListener(miscActionListener);
+        cmdOpenGUI->setEnabled(false);
+	//cmdOpenGUI->addActionListener(miscActionListener);
 
 	lblKeyForQuit = new gcn::Label("Quit Key:");
 	lblKeyForQuit->setAlignment(gcn::Graphics::RIGHT);
@@ -246,7 +247,8 @@ void InitPanelMisc(const struct _ConfigCategory& category)
 	cmdKeyForQuit->setId("KeyForQuit");
 	cmdKeyForQuit->setSize(SMALL_BUTTON_WIDTH, SMALL_BUTTON_HEIGHT);
 	cmdKeyForQuit->setBaseColor(gui_baseCol);
-	cmdKeyForQuit->addActionListener(miscActionListener);
+        cmdKeyForQuit->setEnabled(false);
+	//cmdKeyForQuit->addActionListener(miscActionListener);
 
 	lblKeyActionReplay = new gcn::Label("Action Replay:");
 	lblKeyActionReplay->setAlignment(gcn::Graphics::RIGHT);

@@ -22,7 +22,7 @@
 #include "savestate.h"
 #include "gfxboard.h"
 #ifdef CD32
-#include "cd32_fmv.h"
+#undef CD32
 #endif
 #include "gayle.h"
 #include "autoconf.h"

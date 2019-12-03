@@ -1,6 +1,9 @@
 # Specify "make PLATFORM=<platform>" to compile for a specific target.
 # Check the supported list of platforms below for a ful list
-
+AS=armv8-sony-linux-gnueabihf-as
+CC=armv8-sony-linux-gnueabihf-gcc
+CXX=armv8-sony-linux-gnueabihf-g++
+STRIP=armv8-sony-linux-gnueabihf-strip
 # Raspberry Pi 4 CPU flags
 ifneq (,$(findstring rpi4,$(PLATFORM)))
     CPUFLAGS = -mcpu=cortex-a72 -mfpu=neon-fp-armv8
@@ -168,28 +171,24 @@ $(error Unknown platform:$(PLATFORM))
 endif
 
 RM     = rm -f
-AS     = as
-CC     ?= gcc
-CXX    ?= g++
-STRIP  ?= strip
 PROG   = amiberry
 
 #
 # SDL2 options
 #
 all: guisan $(PROG)
-export SDL_CFLAGS := $(shell sdl2-config --cflags)
-export SDL_LDFLAGS := $(shell sdl2-config --libs)
+export SDL_CFLAGS := 
+export SDL_LDFLAGS := 
 
 CPPFLAGS += $(SDL_CFLAGS) -Iexternal/libguisan/include
-LDFLAGS += $(SDL_LDFLAGS) -lSDL2_image -lSDL2_ttf -lguisan -Lexternal/libguisan/lib
+LDFLAGS += $(SDL_LDFLAGS) -lSDL2 -lSDL2_image -lSDL2_ttf -lguisan -Lexternal/libguisan/lib
 
 #
 # Common options
 #
-DEFS = $(XML_CFLAGS) -DAMIBERRY
+DEFS =  -DAMIBERRY
 CPPFLAGS += -Isrc -Isrc/osdep -Isrc/threaddep -Isrc/include -Isrc/archivers $(DEFS)
-XML_CFLAGS := $(shell xml2-config --cflags )
+XML_CFLAGS := 
 LDFLAGS += -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed
 
 ifndef DEBUG
@@ -228,7 +227,7 @@ ifdef SANITIZE
     CFLAGS += -fsanitize=leak -fsanitize-recover=address
 endif
 
-LDFLAGS += -lpthread -lz -lpng -lrt -lxml2 -lFLAC -lmpg123 -ldl -lmpeg2convert -lmpeg2
+LDFLAGS += -lpthread -lz -lpng -lrt -ldl -lxml2
 export ASFLAGS = $(CPUFLAGS)
 
 export CFLAGS := $(CPUFLAGS) $(CFLAGS) -pipe -Wno-shift-overflow -Wno-narrowing $(EXTRA_CFLAGS)
@@ -254,8 +253,6 @@ OBJS =	\
 	src/blkdev_cdimage.o \
 	src/bsdsocket.o \
 	src/calc.o \
-	src/cd32_fmv.o \
-	src/cd32_fmv_genlock.o \
 	src/cdrom.o \
 	src/cfgfile.o \
 	src/cia.o \
@@ -343,7 +340,6 @@ OBJS =	\
 	src/osdep/fsdb_host.o \
 	src/osdep/amiberry_hardfile.o \
 	src/osdep/keyboard.o \
-	src/osdep/mp3decoder.o \
 	src/osdep/picasso96.o \
 	src/osdep/writelog.o \
 	src/osdep/amiberry.o \

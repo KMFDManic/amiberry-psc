@@ -28,6 +28,7 @@
 #include <android/log.h>
 #endif
 
+#define JOY_AXES 2
 std::vector<int> joypad_axis_state; // Keep track of horizontal and vertical axis states
 
 bool gui_running = false;
@@ -778,7 +779,7 @@ void amiberry_gui_run()
 	if (gui_joystick_control && SDL_NumJoysticks() > 0)
 	{
 		gui_joystick = SDL_JoystickOpen(0);
-		joypad_axis_state.assign(SDL_JoystickNumAxes(gui_joystick), 0);
+		joypad_axis_state.assign(JOY_AXES, 0);
 	}
 
 	// Prepare the screen once

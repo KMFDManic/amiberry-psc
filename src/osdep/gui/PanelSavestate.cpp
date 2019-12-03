@@ -16,6 +16,7 @@
 #include "savestate.h"
 #include "gui_handling.h"
 
+#define NUM_AXES 2
 
 int currentStateNum = 0;
 
@@ -232,7 +233,7 @@ void RefreshPanelSavestate()
 				source.h = loadedImage->h;
 				target.w = rect.width;
 				target.h = rect.height;
-				SDL_SoftStretch(loadedImage, &source, scaled, &target);
+				SDL_BlitScaled(loadedImage, &source, scaled, &target);
 				SDL_FreeSurface(loadedImage);
 				loadedImage = nullptr;
 				imgSavestate = new gcn::SDLImage(scaled, true);

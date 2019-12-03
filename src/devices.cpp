@@ -8,8 +8,7 @@
 #include "memory.h"
 #include "audio.h"
 #ifdef CD32
-#include "cd32_fmv.h"
-#include "akiko.h"
+#undef CD32
 #endif
 #include "disk.h"
 #include "cia.h"

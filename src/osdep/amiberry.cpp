@@ -55,12 +55,12 @@ bool use_sdl2_render_thread = true;
 bool use_sdl2_render_thread = false;
 #endif
 
-// Default Enter GUI key is F12
-int enter_gui_key = SDLK_F12;
+// Default Enter GUI key is AudioPlay / reset
+int enter_gui_key = SDLK_AUDIOPLAY;
 // We don't set a default value for Quitting
-int quit_key = 0;
+int quit_key = SDLK_SLEEP;
 // The default value for Action Replay is Pause/Break
-int action_replay_button = SDLK_PAUSE;
+int action_replay_button = 0;
 // No default value for Full Screen toggle
 int fullscreen_key = 0;
 
@@ -388,9 +388,9 @@ void target_default_options(struct uae_prefs* p, int type)
 		p->gfx_pscanlines = 0;
 	}
 
-	_tcscpy(p->open_gui, "F12");
-	_tcscpy(p->quit_amiberry, "");
-	_tcscpy(p->action_replay, "Pause");
+	_tcscpy(p->open_gui, "AudioPlay");
+	_tcscpy(p->quit_amiberry, "Sleep");
+	_tcscpy(p->action_replay, "");
 	_tcscpy(p->fullscreen_toggle, "");
 
 	p->input_analog_remap = false;

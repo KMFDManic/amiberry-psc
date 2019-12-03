@@ -1,0 +1,5 @@
+#!/bin/bash
+export CC=armv8-sony-linux-gnueabihf-gcc
+export CXX=armv8-sony-linux-gnueabihf-g++
+export CFLAGS=-I/home/screemer/x-tools/armv8-sony-linux-gnueabihf/armv8-sony-linux-gnueabihf/sysroot/usr/include
+make -j2 PLATFORM=rpi2-sdl2
