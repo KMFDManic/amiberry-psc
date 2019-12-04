@@ -1,9 +1,9 @@
 # Specify "make PLATFORM=<platform>" to compile for a specific target.
 # Check the supported list of platforms below for a ful list
-AS=armv8-sony-linux-gnueabihf-as
-CC=armv8-sony-linux-gnueabihf-gcc
-CXX=armv8-sony-linux-gnueabihf-g++
-STRIP=armv8-sony-linux-gnueabihf-strip
+AS=armv7-psc-linux-gnueabihf-as
+CC=armv7-psc-linux-gnueabihf-gcc
+CXX=armv7-psc-linux-gnueabihf-g++
+STRIP=armv7-psc-linux-gnueabihf-strip
 # Raspberry Pi 4 CPU flags
 ifneq (,$(findstring rpi4,$(PLATFORM)))
     CPUFLAGS = -mcpu=cortex-a72 -mfpu=neon-fp-armv8

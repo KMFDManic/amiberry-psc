@@ -1,6 +1,6 @@
 TARGET  = lib/libguisan.a
   
-AR      = ar
+AR      = armv7-psc-linux-gnueabihf-ar
 
 DIRS	=$(shell find ./src -maxdepth 3 -type d)
 SOURCE	= $(foreach dir,$(DIRS),$(wildcard $(dir)/*.cpp))

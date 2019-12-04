@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="amiberry_psc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="amiberry_psc">
+				<Option output="/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/amiberry_psc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/mp2"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/wrp"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/zip"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/caps"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/include"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/machdep"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita2d_fbo"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita2d_fbo/includes"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/switch"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/vkbd"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/sounddep"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/threaddep"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin15.6.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 amiberry_psc"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="amiberry_psc/fast">
+				<Option output="/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/amiberry_psc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/mp2"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/wrp"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/zip"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/caps"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/include"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/machdep"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita2d_fbo"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita2d_fbo/includes"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/switch"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/vkbd"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/sounddep"/>
+					<Add directory="/Users/screemer/NetBeansProjects/amiberry-psc/src/threaddep"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin15.6.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin15.6.0/8.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 amiberry_psc/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/akiko.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/ar.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7z.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zAlloc.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zAlloc.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zBuf.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zBuf.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zBuf2.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zCrc.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zCrc.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zCrcOpt.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zDec.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zFile.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zFile.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zIn.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zStream.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/7zVersion.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Alloc.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Alloc.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Bcj2.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Bcj2.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Bra.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Bra.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Bra86.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/BraIA64.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/CpuArch.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/CpuArch.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Delta.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Delta.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/LzFind.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/LzFind.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/LzHash.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Lzma2Dec.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Lzma2Dec.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Lzma86.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Lzma86Dec.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/LzmaDec.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/LzmaDec.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/LzmaEnc.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/LzmaLib.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/LzmaLib.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Ppmd.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Ppmd7.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Ppmd7.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Ppmd7Dec.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Ppmd7Enc.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/RotateDefs.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Sha256.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Sha256.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Types.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Xz.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/Xz.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/XzCrc64.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/XzCrc64.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/XzDec.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/7z/XzIn.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/cdata.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/crc_csum.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/crc_csum.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/getbits.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/getbits.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/maketbl.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/maketbl.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/pfile.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/pfile.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/tables.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/tables.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_deep.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_deep.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_heavy.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_heavy.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_init.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_init.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_medium.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_medium.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_quick.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_quick.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_rle.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/dms/u_rle.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/crcio.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/dhuf.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/header.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/huf.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/larc.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/lha.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/lha_macro.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/lhamaketbl.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/lharc.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/shuf.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/slide.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/uae_lha.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lha/util.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/lzx/unlzx.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/mp2/kjmp2.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/mp2/kjmp2.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/wrp/warp.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/wrp/warp.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/zip/unzip.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/archivers/zip/unzip.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/aros.rom.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/audio.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/autoconf.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/blitfunc.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/blittable.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/blitter.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/blkdev.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/blkdev_cdimage.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/bsdsocket.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/calc.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/caps/CapsAPI.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/caps/Comtype.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/caps/caps_amiberry.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cd32_fmv.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cd32_fmv_genlock.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cdrom.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cfgfile.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cia.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cpudefs.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cpuemu_0.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cpuemu_11.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cpuemu_4.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cpuemu_40.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cpuemu_44.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/cpustbl.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/crc32.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/custom.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/devices.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/disk.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/diskutil.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/dlopen.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/drawing.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/events.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/expansion.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/fdi2raw.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/filesys.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/flashrom.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/fpp.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/fsdb.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/fsdb_unix.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/fsusage.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/gayle.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/gfxboard.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/gfxutil.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/hardfile.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/hrtmon.rom.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/ide.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/akiko.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/ar.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/audio.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/autoconf.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/blit.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/blitfunc.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/blitter.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/blkdev.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/bsdsocket.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/calc.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/cd32_fmv.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/cia.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/commpipe.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/cpu_prefetch.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/cpummu.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/cputbl.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/crc32.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/custom.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/devices.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/disk.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/diskutil.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/drawing.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/events.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/execio.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/execlib.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/fdi2raw.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/filesys.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/flags_arm.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/flashrom.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/fpp.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/fsdb.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/fsusage.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/gayle.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/gensound.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/gfxboard.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/gui.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/ide.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/inputdevice.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/keyboard.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/keybuf.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/memory.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/mmu_common.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/native2amiga.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/native2amiga_api.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/newcpu.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/options.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/readcpu.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/rommgr.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/rtc.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/rtgmodes.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/savestate.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/scsi.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/statusline.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/sysdeps.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/traps.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae/caps.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae/dlopen.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae/likely.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae/mman.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae/string.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae/types.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uae/uae.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/uaeresource.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/xwin.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/zarchive.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/include/zfile.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/inputdevice.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/aarch64.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/codegen_arm.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/codegen_armA64.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/compemu.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/compemu.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/compemu_fpp.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/compemu_midfunc_arm.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/compemu_midfunc_arm2.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/compemu_support.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/compstbl.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/jit/comptbl.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/keybuf.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/machdep/m68k.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/machdep/maccess.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/machdep/rpt.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/machdep/support.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/main.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/memory.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/native2amiga.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/newcpu.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/newcpu_common.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_filesys.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_gfx.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_gfx.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_gui.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_hardfile.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_input.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_mem.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_rp9.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_rp9.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/amiberry_whdbooter.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/bsdsocket_host.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/cda_play.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/cda_play.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/charset.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/config.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/fsdb_host.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/CreateFilesysHardfile.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/EditFilesysHardfile.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/EditFilesysVirtual.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/InGameMessage.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/Navigation.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelAbout.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelCPU.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelChipset.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelConfig.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelCustom.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelDisplay.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelFloppy.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelHD.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelInput.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelMisc.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelOnScreen.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelPaths.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelQuickstart.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelRAM.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelROM.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelSavestate.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/PanelSound.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/SelectFile.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/SelectFolder.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/SelectorEntry.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/SelectorEntry.hpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/ShowHelp.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/ShowMessage.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/UaeCheckBox.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/UaeCheckBox.hpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/UaeDropDown.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/UaeDropDown.hpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/UaeListBox.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/UaeListBox.hpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/UaeRadioButton.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/UaeRadioButton.hpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/androidsdl_event.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/androidsdl_event.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/gui_handling.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/main_window.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/sdltruetypefont.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/gui/sdltruetypefont.hpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/keyboard.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/mp3decoder.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/mp3decoder.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/picasso96.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/picasso96.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/psp2-dirent.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/psp2-dirent.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/psp2_input.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/psp2_input.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/psp2_shader.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/psp2_shader.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/psp2_touch.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/psp2_touch.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/advanced_aa_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/advanced_aa_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/alpha_blend_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/alpha_blend_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/bicubic_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/clear_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/clear_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/color_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/color_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/crt_easymode_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/fxaa_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/fxaa_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/gtu_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/gtu_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/lcd3x_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/lcd3x_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/opaque_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/opaque_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/ribbon_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/ribbon_simple_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/ribbon_simple_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/ribbon_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/scale2x_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/scale2x_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/sharp_bilinear_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/sharp_bilinear_simple_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/sharp_bilinear_simple_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/sharp_bilinear_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/texture_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/texture_tint_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/texture_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/xbr_2x_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/xbr_2x_fast_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/xbr_2x_fast_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/xbr_2x_noblend_f.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/xbr_2x_noblend_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita-shader-collection/includes/xbr_2x_v.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/psp2/vita2d_fbo/includes/vita2d.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/sigsegv_handler.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/switch/sdl2_to_sdl1.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/switch/sdl2_to_sdl1.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/switch/switch_touch.c">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/switch/switch_touch.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/sysconfig.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/target.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/vkbd/vkbd.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/vkbd/vkbd.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/osdep/writelog.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/readcpu.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/rommgr.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/rtc.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/savestate.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/scsi.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/sounddep/sound.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/sounddep/sound.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/statusline.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/threaddep/thread.h">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/traps.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/uaelib.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/uaeresource.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/zfile.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/src/zfile_archive.cpp">
+			<Option target="amiberry_psc"/>
+		</Unit>
+		<Unit filename="/Users/screemer/NetBeansProjects/amiberry-psc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

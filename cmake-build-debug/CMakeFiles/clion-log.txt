@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++-8 -G "CodeBlocks - Unix Makefiles" /Users/screemer/NetBeansProjects/amiberry-psc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/screemer/NetBeansProjects/amiberry-psc/cmake-build-debug

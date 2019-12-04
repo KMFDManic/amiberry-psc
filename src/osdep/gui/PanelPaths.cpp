@@ -334,12 +334,14 @@ void InitPanelPaths(const struct _ConfigCategory& category)
 	txtControllersPath = new gcn::TextField();
 	txtControllersPath->setSize(textFieldWidth, TEXTFIELD_HEIGHT);
 	txtControllersPath->setBackgroundColor(colTextboxBackground);
+    txtControllersPath->setEnabled(false);
 
 	cmdControllersPath = new gcn::Button("...");
 	cmdControllersPath->setId("ControllersPath");
 	cmdControllersPath->setSize(SMALL_BUTTON_WIDTH, SMALL_BUTTON_HEIGHT);
 	cmdControllersPath->setBaseColor(gui_baseCol);
-	cmdControllersPath->addActionListener(folderButtonActionListener);
+    cmdControllersPath->setEnabled(false);
+	//cmdControllersPath->addActionListener(folderButtonActionListener);
 
 	lblRetroArchFile = new gcn::Label("RetroArch configuration file (retroarch.cfg):");
 	txtRetroArchFile = new gcn::TextField();
@@ -388,7 +390,8 @@ void InitPanelPaths(const struct _ConfigCategory& category)
 	cmdDownloadXML->setSize(cmdDownloadXML->getWidth() + DISTANCE_BORDER, BUTTON_HEIGHT);
 	cmdDownloadXML->setBaseColor(gui_baseCol);
 	cmdDownloadXML->setId("DownloadXML");
-	cmdDownloadXML->addActionListener(downloadXMLButtonActionListener);
+	//cmdDownloadXML->addActionListener(downloadXMLButtonActionListener);
+    cmdDownloadXML->setEnabled(false);
 
 	category.panel->add(cmdRescanROMs, DISTANCE_BORDER, category.panel->getHeight() - BUTTON_HEIGHT - DISTANCE_BORDER);
 	category.panel->add(cmdDownloadXML, DISTANCE_BORDER + cmdRescanROMs->getWidth() + 20,
